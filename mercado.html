@@ -7,12 +7,13 @@
    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <title>RPG - Mercado</title>
+    <title>Mercado</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #724b02;">
-        <a class="navbar-brand" href="index.html">RPG NOME</a>
+        <a class="navbar-brand" href="index.html">Grunenwelt RPG</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,13 +40,13 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="ficha01.html">Liante</a>
-                <a class="dropdown-item" href="#">PP02</a>
-                <a class="dropdown-item" href="#">PP04</a>
+                <a class="dropdown-item" href="ficha02.html">Malfias</a>
+                <a class="dropdown-item" href="ficha03.html">Mithryiel</a>
               </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Outros Personagens (em construção)
+                Outros Personagens 
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="outros-persongens-ilha.html">Ilha Fantasma</a>
@@ -58,94 +59,181 @@
       </nav>
 
       <div class="container-mercado">
-        <h1>Preço nas Estalagens :</h1>
-        <h2>3 Coroas - Portúmbria</h2>
-        <table border="3">
-            <tr>
-                <td class="cima-tabela">Nome do Item</td>
-                <td class="cima-tabela">Preço</td>
-                <td class="cima-tabela">Função</td>
-                <td class="cima-tabela">Descrição</td>
-            </tr>
-            <tr>
-                <td>Pão Pequeno</td>
-                <td>2 Pratas</td>
-                <td>Alimento</td>
-                <td>Dura 1x Mordida</td>
-            </tr>
-            <tr>
-                <td>Pão Médio</td>
-                <td>4 Pratas</td>
-                <td>Alimento</td>
-                <td>Dura 2x Mordida</td>
-            </tr>
-            <tr>
-                <td>Pão Grande</td>
-                <td>6 Pratas</td>
-                <td>Alimento</td>
-                <td>Dura 3x Mordida</td>
-            </tr>
-            <tr>
-                <td>Cerveja Escura</td>
-                <td>4 Pratas</td>
-                <td>Bebida</td>
-                <td>Uma cerveja comum</td>
-            </tr>
-            <tr>
-                <td>Vinho de RosaRubi</td>
-                <td>5 Pratas</td>
-                <td>Bebida</td>
-                <td>Bebida de excelente qualidade</td>
-            </tr>
-            <tr>
-                <td>Cerveja Dourada</td>
-                <td>4 Pratas</td>
-                <td>Bebida</td>
-                <td>Mais cremosa e gostosa</td>
-            </tr>
-            <tr>
-                <td>Café da Manhã</td>
-                <td>5 Pratas</td>
-                <td>Alimento</td>
-                <td>1 Pão P. & 1 Cerveja Escura</td>
-            </tr>
-            <tr>
-                <td>Banquete</td>
-                <td>12 Pratas</td>
-                <td>Alimento</td>
-                <td>1 Frango, 1 Pão P & 1 Cerveja</td>
-            </tr>
-            <tr>
-                <td>Galão de Cerveja</td>
-                <td>13 Pratas</td>
-                <td>Bebida</td>
-                <td>Serve 6x Canecas</td>
-            </tr>
-            <tr>
-                <td>Frango Assado</td>
-                <td>9 Pratas</td>
-                <td>Alimento</td>
-                <td>Serve 4x Pessoas</td>
-            </tr>
-            <tr>
-                <td>Uma noite simples</td>
-                <td>4 Pratas</td>
-                <td>Hospedagem</td>
-                <td>Apenas um quarto pobre</td>
-            </tr>
-            <tr>
-                <td>Noite Simples c/ Café</td>
-                <td>8 Pratas</td>
-                <td>Hospedagem</td>
-                <td>Quarto pobre com café</td>
-            </tr>
-            <tr>
-                <td>Noite confortável</td>
-                <td>8 Pratas</td>
-                <td>Hospedagem</td>
-                <td>Quarto com vista da cidade</td>
-            </tr>
-        </table>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Estalagens
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <table border="3">
+                  <tr>
+                      <td class="cima-tabela">Nome do Item</td>
+                      <td class="cima-tabela">Preço</td>
+                      <td class="cima-tabela">Função</td>
+                      <td class="cima-tabela">Descrição</td>
+                  </tr>
+                  <tr>
+                      <td>Pão Pequeno</td>
+                      <td>2 Pratas</td>
+                      <td>Alimento</td>
+                      <td>Dura 1x Mordida</td>
+                  </tr>
+                  <tr>
+                      <td>Pão Médio</td>
+                      <td>4 Pratas</td>
+                      <td>Alimento</td>
+                      <td>Dura 2x Mordida</td>
+                  </tr>
+                  <tr>
+                      <td>Pão Grande</td>
+                      <td>6 Pratas</td>
+                      <td>Alimento</td>
+                      <td>Dura 3x Mordida</td>
+                  </tr>
+                  <tr>
+                      <td>Cerveja Escura</td>
+                      <td>4 Pratas</td>
+                      <td>Bebida</td>
+                      <td>Uma cerveja comum</td>
+                  </tr>
+                  <tr>
+                      <td>Vinho de RosaRubi</td>
+                      <td>5 Pratas</td>
+                      <td>Bebida</td>
+                      <td>Bebida de excelente qualidade</td>
+                  </tr>
+                  <tr>
+                      <td>Cerveja Dourada</td>
+                      <td>4 Pratas</td>
+                      <td>Bebida</td>
+                      <td>Mais cremosa e gostosa</td>
+                  </tr>
+                  <tr>
+                      <td>Café da Manhã</td>
+                      <td>5 Pratas</td>
+                      <td>Alimento</td>
+                      <td>1 Pão P. & 1 Cerveja Escura</td>
+                  </tr>
+                  <tr>
+                      <td>Banquete</td>
+                      <td>12 Pratas</td>
+                      <td>Alimento</td>
+                      <td>1 Frango, 1 Pão P & 1 Cerveja</td>
+                  </tr>
+                  <tr>
+                      <td>Galão de Cerveja</td>
+                      <td>13 Pratas</td>
+                      <td>Bebida</td>
+                      <td>Serve 6x Canecas</td>
+                  </tr>
+                  <tr>
+                      <td>Frango Assado</td>
+                      <td>9 Pratas</td>
+                      <td>Alimento</td>
+                      <td>Serve 4x Pessoas</td>
+                  </tr>
+                  <tr>
+                      <td>Uma noite simples</td>
+                      <td>4 Pratas</td>
+                      <td>Hospedagem</td>
+                      <td>Apenas um quarto pobre</td>
+                  </tr>
+                  <tr>
+                      <td>Noite Simples c/ Café</td>
+                      <td>8 Pratas</td>
+                      <td>Hospedagem</td>
+                      <td>Quarto pobre com café</td>
+                  </tr>
+                  <tr>
+                      <td>Noite confortável</td>
+                      <td>8 Pratas</td>
+                      <td>Hospedagem</td>
+                      <td>Quarto com vista da cidade</td>
+                  </tr>
+              </table>
+      
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Medicamentos
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <table border="3">
+                  <tr>
+                      <td class="cima-tabela">Nome do Item</td>
+                      <td class="cima-tabela">Preço</td>
+                      <td class="cima-tabela">Descrição</td>
+                  </tr>
+                  <tr>
+                      <td>Poção Vermelha Pequena</td>
+                      <td>15 Pratas</td>
+                      <td>Regenera 4 de Vida</td>
+                  </tr>
+                  <tr>
+                      <td>Poção Vermelha Média</td>
+                      <td>30 Pratas</td>
+                      <td>Regenera 8 de Vida</td>
+                  </tr>
+                  <tr>
+                      <td>Poção Vermelha Grande</td>
+                      <td>80 Pratas ou 1 Ouro</td>
+                      <td>Regenera 12 de Vida</td>
+                  </tr>
+                  <tr>
+                    <td>Poção Vermelha Perfeita</td>
+                    <td>2 Ouros</td>
+                    <td>Regenera a vida totalmente</td>
+                </tr>
+                  <tr>
+                      <td>Antídoto Simples</td>
+                      <td>30 Pratas</td>
+                      <td>Anula os efeitos de envenenamentos comuns</td>
+                  </tr>
+                  <tr>
+                    <td>Antídoto Avançado</td>
+                    <td>630 Pratas</td>
+                    <td>Anula os efeitos de qualquer tipo de veneno</td>
+                  </tr>
+                  <tr>
+                      <td>Pena de Fênix</td>
+                      <td>5 Peças de Ouro</td>
+                      <td>Trás de volta alguém que desmaiou em combate</td>
+                  </tr>
+              
+              </table>
+      
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Armas e Armaduras (em construção)
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                ...
+              </div>
+            </div>
+          </div>
+        </div>
+    
       </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
