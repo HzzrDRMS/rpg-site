@@ -108,11 +108,11 @@ H4{
     background-color: aqua;
 }
 
-.exp-points-melfias{
+.exp-points-malfias{
     border-top-left-radius:50px ;
     border-bottom-left-radius:50px ;
     height: 23px;
-    width: 80%;  /*ajustar-nivel*/
+    width: 20%;  /*ajustar-nivel*/
     background-color: aqua;
 }
 .exp-points-mitriel{
@@ -570,6 +570,7 @@ transform: scale(1.2);
         color: white;
     }
     
+
    td{
     padding: 8px;
    }
