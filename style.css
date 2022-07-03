@@ -14,6 +14,11 @@ background-image: url(img/bg2.jpg);
 background-color: rgb(100, 64, 17);
 }
 
+.mapa-titulo{
+    color: rgb(22, 13, 0);
+    text-shadow: 0px 0px 06px black;
+}
+
 .mapa-banner{
     margin-top: 15px;
     background-color: brown;
