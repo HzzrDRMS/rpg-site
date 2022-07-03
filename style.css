@@ -21,15 +21,16 @@ background-color: rgb(100, 64, 17);
 
 .mapa-banner{
     margin-top: 15px;
-    background-color: brown;
     height: 500px;
     width: 1300px;
    margin-left: 5px;
+  
+
 }
 
 .mapa-banner img{
-
     width: 100%;
+    border:8px solid rgba(54, 31, 0, 0.192);
 }
 
 .container{
@@ -275,7 +276,7 @@ h5{
 }
 
 .mapa-img{
-    background-color: aquamarine;
+    border:8px solid rgba(117, 69, 5, 0.973);
     width: 550px;
     height: 70%;
     cursor: pointer;
