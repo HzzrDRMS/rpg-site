@@ -10,6 +10,17 @@ body{
 background-image: url(img/bg2.jpg);
 }
 
+::-webkit-scrollbar-track {
+    background-color: rgb(180, 130, 65);
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background: #991717;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(100, 64, 17);
+}
+
 .nav-item:hover {
 background-color: rgb(100, 64, 17);
 }
@@ -128,13 +139,97 @@ H4{
     width: 90%;  /*ajustar-nivel*/
     background-color: aqua;
 }
+
+.exp-points-choppum{
+    border-top-left-radius:50px ;
+    border-bottom-left-radius:50px ;
+    height: 23px;
+    width: 30%;  /*ajustar-nivel*/
+    background-color: aqua;
+}
+
+#exp-atual{
+    color: rgb(26, 86, 141);
+    text-align: center;
+    font-size: 14pt;
+}
+
+/*VIDA*/
+
+.qtd-vida{
+    width: 700px;
+    margin-left: 45px;
+    margin-top: 20px;
+    background-color: rgb(117, 83, 37);
+    display: flex;
+    color: beige;
+    padding: 10px;
+    align-items: center;
+}
+.vida-bar{
+
+    border-radius: 50px;
+    background-color: blanchedalmond;
+    width: 450px;
+    margin-right: 7px;
+    
+
+}
+.vida-points-liante{
+    border-top-left-radius:50px ;
+    border-bottom-left-radius:50px ;
+    height: 23px;
+    width: 70%;  /*ajustar-nivel*/
+    background-color: rgb(250, 34, 18);
+}
+
+.vida-points-malfias{
+    border-top-left-radius:50px ;
+    border-bottom-left-radius:50px ;
+    height: 23px;
+    width: 70%;  /*ajustar-nivel*/
+    background-color: rgb(250, 34, 18);
+}
+.vida-points-mitriel{
+    border-top-left-radius:50px ;
+    border-bottom-left-radius:50px ;
+    height: 23px;
+    width: 70%;  /*ajustar-nivel*/
+    background-color: rgb(250, 34, 18);
+}
+
+.vida-points-melinda{
+    border-top-left-radius:50px ;
+    border-bottom-left-radius:50px ;
+    height: 23px;
+    width: 100%;  /*ajustar-nivel*/
+    background-color: rgb(250, 34, 18);
+}
+
+
+.vida-points-alucard{
+    border-top-left-radius:50px ;
+    border-bottom-left-radius:50px ;
+    height: 23px;
+    width: 100%;  /*ajustar-nivel*/
+    background-color: rgb(250, 34, 18);
+}
+
+.vida-points-choppum{
+    border-top-left-radius:50px ;
+    border-bottom-left-radius:50px ;
+    height: 23px;
+    width: 70%;  /*ajustar-nivel*/
+    background-color: rgb(250, 34, 18);
+}
+
 #nivel-atual{
     background-color: blanchedalmond;
     color: rgb(51, 35, 6);
     padding: 3px;
 }
-#exp-atual{
-    color: rgb(0, 137, 250);
+#vida-atual{
+    color: rgb(70, 2, 2);
     text-align: center;
     font-size: 14pt;
 }
@@ -338,6 +433,46 @@ td{
 .btn:hover{
     color:rgb(49, 49, 49) ;
 }
+
+
+/*-----------------------------MISSOES---------*/
+
+
+.container-missao{
+    width: 900px;
+    background-color: rgb(207, 143, 58);
+    border: 4px solid rgb(73, 36, 2);
+    margin-top: 30px;
+}
+.dados-missoes{
+    font-size: 20pt;
+}
+
+.missao-name{
+    margin-left: 3px;
+    font-size: 29pt;
+    color: white;
+}
+
+.missao-for{
+    color:rgb(126, 77, 13);
+    margin-left: 3px;
+}
+
+.missao-data{
+    margin-left: 3px;
+    color: rgb(41, 20, 1);
+}
+
+.missao-descrip{
+    background-color: rgb(211, 165, 105);
+    color: black;
+    overflow: auto;
+    height: 80px;
+    width: 800px;
+    margin-left: 3px;
+}
+
 /*----------------OUTROS PERSONAGENS-------------------*/
 
 .sub-container{
@@ -481,7 +616,20 @@ transform: scale(1.2);
        margin: 0;
        width: 100%;
     }
-    #nivel-atual{
+    .qtd-vida{
+        border-radius: 6px;
+
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .vida-bar{
+       margin: 0;
+       width: 100%;
+    }
+    #vida-atual{
         width: 50%;
         text-align: center;
     }
@@ -665,6 +813,40 @@ transform: scale(1.2);
 
 
 
+.container-missao{
+    width: auto;
+    background-color: rgb(207, 143, 58);
+    border: 4px solid rgb(73, 36, 2);
+    margin-top: 30px;
+}
+.dados-missoes{
+    font-size: 20pt;
+}
+
+.missao-name{
+    margin-left: 3px;
+    font-size: 20pt;
+    color: white;
+}
+
+.missao-for{
+    color:rgb(126, 77, 13);
+    margin-left: 3px;
+}
+
+.missao-data{
+    margin-left: 3px;
+    color: rgb(41, 20, 1);
+}
+
+.missao-descrip{
+    background-color: burlywood;
+    color: black;
+    overflow: auto;
+    height: 95px;
+    width: 90%;
+    margin-left: 3px;
+}
 
 
 }
