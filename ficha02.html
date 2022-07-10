@@ -1,146 +1,191 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <title>MALFIAS</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #724b02;">
-      <a class="navbar-brand" href="index.html">Grunenwelt RPG</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Início <span class="sr-only">(Página atual)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mercado.html">Mercado</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="monster-book.html">Livro dos Monstros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="missoes.html">Missões</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mapas.html">Mapas</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Fichas de Personagem
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="ficha01.html">Liante</a>
-              <a class="dropdown-item" href="ficha02.html">Malfias</a>
-              <a class="dropdown-item" href="ficha03.html">Mithryiel</a>
-              <a class="dropdown-item" href="ficha04.html">Melinda</a>
-              <a class="dropdown-item" href="ficha05.html">Alucard</a>
-              <a class="dropdown-item" href="ficha06.html">Choppum</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Outros Personagens 
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="outros-persongens-ilha.html">Ilha Fantasma</a>
-              <a class="dropdown-item" href="outros-persongens-portumbria.html">Portumbria</a>
-              <a class="dropdown-item" href="#">Estradas</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <div class="container">
-        <div class="img-pp">
-          <img src="img/personagens/malfias.jpg">
-        </div>
-        <div class="dados">
-            <h1>Malfias Domarien</h1> 
-            <h2>Mago / Tiefling</h2>
-            <hr>
-            <!--VIDA-->
-            <div class="qtd-vida">
-              <h4>Life Points: </h4> 
-                  <div class="vida-bar">
-                      <div class="vida-points-malfias">  <h4 id="vida-atual">17/20</h4></div>   <!--AJUSTAR NIVEL-->         
-           </div>
-      </div>
-        <div class="nivel-exp">
-                <h4>Exp Points: </h4> 
-                    <div class="exp-bar">
-                        <div class="exp-points-malfias">  <h4 id="exp-atual">2/15 </h4></div>   <!--AJUSTAR NIVEL-->         
-             </div>
-                <h4>NVL:</h4> <h4 id="nivel-atual">02</h4>
-        </div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <title>MALFIAS</title>
+</head>
 
-        <div class="alinhamentos">
-            <h4>Alinhamentos: </h4> <h3>neutro/neutro</h3>
-            
-        </div>
-
-      <div class="atributes-area">
-        <div class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              ATRIBUTOS
-            </a>
-          
-            <div class="dropdown-menu">
-          <p class="atributo-nome"><b>SÁUDE</b></p> <p class="atributo-valor">5</p>
-          <p class="atributo-nome"><b>ATAQUE</b></p> <p class="atributo-valor">5</p>
-          <p class="atributo-nome"><b>HAB.CORPORAL</b></p> <p class="atributo-valor">4</p>
-          <p class="atributo-nome"><b>CARISMA</b></p> <p class="atributo-valor">4</p>
-          <p class="atributo-nome"><b>PERCEPÇÃO</b></p> <p class="atributo-valor">5</p>
-          <p class="atributo-nome"><b>INTIMIDAÇÃO</b></p> <p class="atributo-valor">6</p>
-          <p class="atributo-nome"><b>FURTIVIDADE</b></p> <p class="atributo-valor">3</p>
-          <p class="atributo-nome"><b>SABEDORIA</b></p> <p class="atributo-valor">4</p>
-              
-            </div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #724b02;">
+    <a class="navbar-brand" href="index.html">Grunenwelt RPG</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Início <span class="sr-only">(Página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mercado.html">Mercado</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="monster-book.html">Livro dos Monstros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="missoes.html">Missões</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mapas.html">Mapas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Fichas de Personagem
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="ficha01.html">Liante</a>
+            <a class="dropdown-item" href="ficha02.html">Malfias</a>
+            <a class="dropdown-item" href="ficha03.html">Mithryiel</a>
+            <a class="dropdown-item" href="ficha04.html">Melinda</a>
+            <a class="dropdown-item" href="ficha05.html">Rakan</a>
+            <a class="dropdown-item" href="ficha06.html">Choppum</a>
           </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Outros Personagens
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="outros-persongens-ilha.html">Ilha Fantasma</a>
+            <a class="dropdown-item" href="outros-persongens-portumbria.html">Portumbria</a>
+            <a class="dropdown-item" href="#">Estradas</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="img-pp">
+      <img src="img/personagens/malfias.jpg">
+    </div>
+    <div class="dados">
+      <h1>Malfias Domarien</h1>
+      <h2>Mago / Tiefling</h2>
+      <hr>
+      <!--VIDA-->
+      <div class="qtd-vida">
+        <h4>Life Points: </h4>
+        <div class="vida-bar">
+          <div class="vida-points-malfias">
+            <h4 id="vida-atual">20/20</h4>
+          </div>
+          <!--AJUSTAR NIVEL-->
+        </div>
+      </div>
+      <div class="nivel-exp">
+        <h4>Exp Points: </h4>
+        <div class="exp-bar">
+          <div class="exp-points-malfias">
+            <h4 id="exp-atual">2/20 </h4>
+          </div>
+          <!--AJUSTAR NIVEL-->
+        </div>
+        <h4>NVL:</h4>
+        <h4 id="nivel-atual">03</h4>
       </div>
 
       <div class="alinhamentos">
-        <h4>Dinheiro: </h4> <h3 class="gold">0 ouro</h3> | <h3 class="silver"> 336 pratas</h3>
-        
-    </div>
+        <h4>Alinhamentos: </h4>
+        <h3>neutro/neutro</h3>
+
+      </div>
+
+      <div class="atributes-area">
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ATRIBUTOS
+          </a>
+
+          <div class="dropdown-menu">
+            <p class="atributo-nome"><b>SÁUDE</b></p>
+            <p class="atributo-valor">6</p>
+            <p class="atributo-nome"><b>ATAQUE</b></p>
+            <p class="atributo-valor">9</p>
+            <p class="atributo-nome"><b>HAB.CORPORAL</b></p>
+            <p class="atributo-valor">6</p>
+            <p class="atributo-nome"><b>CARISMA</b></p>
+            <p class="atributo-valor">4</p>
+            <p class="atributo-nome"><b>PERCEPÇÃO</b></p>
+            <p class="atributo-valor">5</p>
+            <p class="atributo-nome"><b>INTIMIDAÇÃO</b></p>
+            <p class="atributo-valor">6</p>
+            <p class="atributo-nome"><b>FURTIVIDADE</b></p>
+            <p class="atributo-valor">3</p>
+            <p class="atributo-nome"><b>SABEDORIA</b></p>
+            <p class="atributo-valor">4</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="alinhamentos">
+        <h4>Dinheiro: </h4>
+        <h3 class="gold">0 ouro</h3> | <h3 class="silver"> 342 pratas</h3>
+
+      </div>
 
       <div class="mochila-area">
         <h4>Mochila</h4>
         <ul class="list-group">
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              Pão Pequeno
-              <span class="badge badge-primary badge-pill">03</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-               Atadura
-              <span class="badge badge-primary badge-pill">01</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-          Vazio
-              <span class="badge badge-primary badge-pill">00</span>
-            </li>
-          </ul>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Pão Pequeno
+            <span class="badge badge-primary badge-pill">03</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Atadura
+            <span class="badge badge-primary badge-pill">01</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Poção Vermelha Pequena
+            <span class="badge badge-primary badge-pill">01</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Vazio
+            <span class="badge badge-primary badge-pill">00</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Vazio
+            <span class="badge badge-primary badge-pill">00</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Vazio
+            <span class="badge badge-primary badge-pill">00</span>
+          </li>
+        </ul>
       </div>
-        </div> <!--DADOS-->
+    </div>
+    <!--DADOS-->
 
 
-    </div> <!--CONTAINER-->
+  </div>
+  <!--CONTAINER-->
 
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
