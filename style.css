@@ -140,11 +140,11 @@ H4{
     background-color: aqua;
 }
 
-.exp-points-choppum{
+.exp-points-freega{
     border-top-left-radius:50px ;
     border-bottom-left-radius:50px ;
     height: 23px;
-    width: 30%;  /*ajustar-nivel*/
+    width: 00%;  /*ajustar-nivel*/
     background-color: aqua;
 }
 
@@ -232,11 +232,11 @@ H4{
     background-color: rgb(250, 34, 18);
 }
 
-.vida-points-choppum{
+.vida-points-freega{
     border-top-left-radius:50px ;
     border-bottom-left-radius:50px ;
     height: 23px;
-    width: 70%;  /*ajustar-nivel*/
+    width: 100%;  /*ajustar-nivel*/
     background-color: rgb(250, 34, 18);
 }
 
