@@ -196,7 +196,7 @@ H4{
     border-top-left-radius:50px ;
     border-bottom-left-radius:50px ;
     height: 23px;
-    width: 70%;  /*ajustar-nivel*/
+    width: 100%;  /*ajustar-nivel*/
     background-color: rgb(250, 34, 18);
 }
 
