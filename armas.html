@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Armas</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #BDBDBD;">
+      <a class="navbar-brand" href="index.html">Grunenwelt RPG</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Início <span class="sr-only">(Página atual)</span></a>
+          </li>
+          
+          <li class="nav-item dropdown"> <!--LISTA DE ITENS-->
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Lista de Itens
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="consumiveis.html">Consumíveis</a>
+              <a class="dropdown-item" href="armas.html">Armas</a>
+              <a class="dropdown-item" href="armaduras.html">Armaduras</a>
+              <a class="dropdown-item" href="#">Equipamentos</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown"> <!--A CAMPANHA-->
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              A Campanha
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Missões</a>
+              <a class="dropdown-item" href="#">Resumos</a>
+            </div>
+          </li>
+        
+          <li class="nav-item dropdown"> <!--O COMPÊNDIO-->
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              O Compêndio
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="monstros.html">Monstros</a>
+              <a class="dropdown-item" href="cidades.html">Cidades</a>
+              <a class="dropdown-item" href="religioes.html">Religiões</a>
+              <a class="dropdown-item" href="racas.html">Raças</a>
+              <a class="dropdown-item" href="#">Classes</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Fichas de Personagem
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Liante</a>
+              <a class="dropdown-item" href="#">Malfias</a>
+              <a class="dropdown-item" href="#">Mithryiel</a>
+              <a class="dropdown-item" href="#">Melinda</a>
+              <a class="dropdown-item" href="#">Alucard</a>
+              <a class="dropdown-item" href="#">Freega</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Outros Personagens
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="outros-persongens-ilha.html">Ilha Fantasma</a>
+              <a class="dropdown-item" href="outros-persongens-portumbria.html">Portumbria</a>
+              <a class="dropdown-item" href="outros-persongens-estradas.html">Estradas</a>
+              <a class="dropdown-item" href="outros-persongens-minas.html">Minas Ambar</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+   <h1 class="item-title">Armamentos</h1> 
+<div class="container-itens">
+    <div class="item-area-left"> <!--ITENS DA ESQUERDA-->
+        <div class="item-slot">  <!--COPIAR P NOVO ITEM-->
+           <div class="item-img arma arma">  <img src="/img/itens/arm/adaga-comum.png"> </div>
+           <div class="item-txt">
+            <h3>Adaga Comum</h3>
+            <p><b>Categoria: </b> Corpo a corpo (1 mão)</p>
+            <p><b>Classe : </b> Todas</p>
+            <p><b>Preço :</b> 25 Moedas de Prata</p>
+            <p><b>Dano :</b> Força (1D4 para Ladino)</p>
+           </div>
+        </div>
+
+        <div class="item-slot">
+            <div class="item-img arma">  <img src="/img/itens/arm/faca-dearremesso.png"> </div>
+            <div class="item-txt">
+                <h3>Adaga de Arremesso</h3>
+                <p><b>Categoria: </b> Distância</p>
+                <p><b>Classe : </b> Ladino (Nvl 2)</p>
+                <p><b>Preço :</b> 10 Moedas de Prata (Unid)</p>
+                <p><b>Dano :</b> 1 D4</p>
+            </div>
+         </div>
+
+         
+        <div class="item-slot">
+            <div class="item-img arma">  <img src="/img/itens/arm/adaga-nort.png"> </div>
+            <div class="item-txt">
+                <h3>Adaga Nortenha</h3>
+                <p><b>Categoria: </b> Corpo a corpo (1 mão)</p>
+                <p><b>Classe : </b> Ladino (Nvl 4)</p>
+                <p><b>Preço :</b> 40 Moedas de Prata</p>
+                <p><b>Dano :</b> 1 D6</p>
+            </div>
+         </div>
+
+         
+        <div class="item-slot">
+            <div class="item-img arma">  <img src="/img/itens/arm/adaga-elfica.png"> </div>
+            <div class="item-txt">
+                <h3>Adaga Élfica</h3>
+                <p><b>Categoria: </b> Corpo a corpo (1 mão)</p>
+                <p><b>Classe : </b> Ladino (Nvl 6)</p>
+                <p><b>Preço :</b> 70 Pratas ou 1 Ouro</p>
+                <p><b>Dano :</b> 1 D8</p>
+            </div>
+         </div>
+
+         
+        <div class="item-slot">
+            <div class="item-img arma">  <img src="/img/itens/arm/alabarda.png">  </div>
+            <div class="item-txt">
+                <h3>Alabarda de Guerra</h3>
+                <p><b>Categoria: </b> Corpo a corpo (2 mãos)</p>
+                <p><b>Classe : </b> Guerreiro (Nvl 3)</p>
+                <p><b>Preço :</b> 60 Moedas de Prata</p>
+                <p><b>Dano :</b> 1 D8</p>
+            </div>
+         </div>
+
+         <div class="item-slot">
+            <div class="item-img arma">  <img src="/img/itens/arm/lanca.png""> </div>
+            <div class="item-txt">
+                <h3>Lança Comum</h3>
+                <p><b>Categoria: </b> Corpo a Corpo/Distância</p>
+                <p><b>Classe : </b> Guerreiro (Nivel 2)</p>
+                <p><b>Preço :</b> 50 Moedas de Prata</p>
+                <p><b>Dano :</b> 1 D6</p>
+            </div>
+         </div>
+
+         <div class="item-slot">
+            <div class="item-img arma">  <img src="/img/itens/arm/espada-bastarda.png">  </div>
+            <div class="item-txt">
+                <h3>Espada Bastarda</h3>
+                <p><b>Categoria: </b> Corpo a corpo (1 a mão)</p>
+                <p><b>Classe : </b> Guerreiro (Nvl 3)</p>
+                <p><b>Preço :</b> 70 Pratas ou 1 Ouro</p>
+                <p><b>Dano :</b> 1 D8</p>
+            </div>
+         </div>
+         
+         <div class="item-slot">  <!--COPIAR P NOVO ITEM-->
+            <div class="item-img arma arma">  <img src="/img/itens/arm/espada-longa.png"> </div>
+            <div class="item-txt">
+             <h3>Espada Longa</h3>
+             <p><b>Categoria: </b> Corpo a corpo (2 mãos)</p>
+             <p><b>Classe : </b> Guerreiro (Nvl 5)</p>
+             <p><b>Preço :</b> 120 Pratas ou 2 Ouros</p>
+             <p><b>Dano :</b> 1 D10</p>
+            </div>
+         </div>
+ 
+         <div class="item-slot">
+             <div class="item-img arma">  <img src="/img/itens/arm/tridente.png"> </div>
+             <div class="item-txt">
+                 <h3>Tridente</h3>
+                 <p><b>Categoria: </b> Corpo a Corpo/Distância</p>
+                 <p><b>Classe : </b> Guerreiro (Nvl 5)</p>
+                 <p><b>Preço :</b> 120 Pratas ou 2 Ouros</p>
+                 <p><b>Dano :</b> 1 D10</p>
+             </div>
+          </div>
+ 
+          
+         <div class="item-slot">
+             <div class="item-img arma">  <img src="/img/itens/arm/katana.png"> </div>
+             <div class="item-txt">
+                 <h3>Katana</h3>
+                 <p><b>Categoria: </b> Corpo a corpo (1 mão)</p>
+                 <p><b>Classe : </b> Guerreiro (Nvl 11)</p>
+                 <p><b>Preço :</b> 170 Pratas ou 3 Ouros</p>
+                 <p><b>Dano :</b> 1 D12</p>
+             </div>
+          </div>
+ 
+          
+         <div class="item-slot">
+             <div class="item-img arma">  <img src="/img/itens/arm/night-blade.png"> </div>
+             <div class="item-txt">
+                 <h3>Lâmina da Noite</h3>
+                 <p><b>Categoria: </b> Corpo a corpo (1 mão)</p>
+                 <p><b>Classe : </b> Guerreiro (Nvl 11)</p>
+                 <p><b>Preço :</b> 220 Pratas ou 4 Ouros</p>
+                 <p><b>Dano :</b> 1 D12 + 1D4</p>
+             </div>
+          </div>
+ 
+          
+         <div class="item-slot">
+             <div class="item-img arma">  <img src="/img/itens/arm/stormbringer.png">  </div>
+             <div class="item-txt">
+                 <h3>Stormbringer</h3>
+                 <p><b>Categoria: </b> Corpo a corpo (2 mãos)</p>
+                 <p><b>Classe : </b> Guerreiro (Nvl 15)</p>
+                 <p><b>Preço :</b> 290 Pratas ou 5 Ouros</p>
+                 <p><b>Dano :</b> 2 D8</p>
+             </div>
+          </div>
+ 
+          <div class="item-slot">
+             <div class="item-img arma">  <img src="/img/itens/arm/maca-estrela.png"> </div>
+             <div class="item-txt">
+                 <h3>Maça Estrela</h3>
+                 <p><b>Categoria: </b> Corpo a Corpo (1 mão)</p>
+                 <p><b>Classe : </b> Guerreiro (Nvl 15)</p>
+                 <p><b>Preço :</b> 50 Moedas de Prata</p>
+                 <p><b>Dano :</b> 1 D6</p>
+             </div>
+          </div>
+ 
+          <div class="item-slot">
+             <div class="item-img arma">  <img src="/img/itens/arm/machado.png">  </div>
+             <div class="item-txt">
+                 <h3>Machado Comum</h3>
+                 <p><b>Categoria: </b> Corpo a Corpo/Distância/p>
+                 <p><b>Classe : </b> Guerreiro (Nvl 3)</p>
+                 <p><b>Preço :</b> 75 Moedas de Prata</p>
+                 <p><b>Dano :</b> 1 D8</p>
+             </div>
+          </div>
+
+    </div> <!--ITEM AREA LEFT (fim)-->
+
+    
+    <div class="item-area-right"> <!--ITENS DA DIREITA-->
+        <div class="item-slot">  <!--COPIAR P NOVO ITEM-->
+           <div class="item-img arma"> <img src="/img/itens/arm/machado-barbudo.png">  </div>
+           <div class="item-txt">
+            <h3>Machado Barbudo</h3>
+            <p><b>Categoria: </b> Bárbaro (Nvl 5)</p>
+            <p><b>Classe : </b> Corpo a corpo/Distância</p>
+            <p><b>Preço :</b> 120 Pratas ou 2 Ouros</p>
+            <p><b>Dano :</b> 1 D10</p>
+           </div>
+        </div>
+    
+        <div class="item-slot">
+            <div class="item-img arma">  <img src="/img/itens/arm/machado-guerra.png"> </div>
+            <div class="item-txt">
+                <h3>Machado de Guerra</h3>
+            <p><b>Categoria: </b> Corpo a corpo (2 mãos)</p>
+            <p><b>Classe : </b> Bárbaro (Nvl 8)</p>
+            <p><b>Preço :</b> 170 Pratas ou 3 Ouros</p>
+            <p><b>Dano :</b> 1 D12</p>
+            </div>
+         </div>
+    
+         
+        <div class="item-slot">
+            <div class="item-img arma">  <img src="/img/itens/arm/leviatann.png"> </div>
+            <div class="item-txt">
+                <h3>Leviatann</h3>
+                <p><b>Categoria: </b> Corpo a corpo (2 mãos)</p>
+                <p><b>Classe : </b> Bárbaro</p>
+                <p><b>Preço :</b> 235 Pratas ou 4 Ouros</p>
+                <p><b>Dano :</b> 1 D12 + D4</p>
+            </div>
+         </div>
+    
+         
+        <div class="item-slot">
+            <div class="item-img arma">  <img src="/img/itens/arm/rubi.png"> </div>
+            <div class="item-txt">
+                <h3>Orbe de Rubi</h3>
+                <p><b>Categoria: </b>Para cajado</p>
+                <p><b>Classe : </b> Mago (Nvl 3)</p>
+                <p><b>Preço :</b> 60 Moedas de Prata</p>
+                <p><b>Dano :</b> 1 D8</p>
+            </div>
+         </div>
+    
+         
+        <div class="item-slot">
+            <div class="item-img arma">  <img src="/img/itens/arm/safira.png"> </div>
+            <div class="item-txt">
+            <h3>Orba de Safira</h3>
+            <p><b>Categoria: </b> Para cajado</p>
+            <p><b>Classe : </b> Mago (Nvl 5)</p>
+            <p><b>Preço :</b> 120 Pratas ou 2 Ouros</p>
+            <p><b>Dano :</b> 1 D10</p>
+            </div>
+         </div>
+
+         <div class="item-slot">
+            <div class="item-img arma">  <img src="/img/itens/arm/esmeralda.png"> </div>
+            <div class="item-txt">
+                <h3>Orbe de Esmeralda</h3>
+            <p><b>Categoria: </b> Para cajado</p>
+            <p><b>Classe : </b> Mago (Nvl 8)</p>
+            <p><b>Preço :</b> 170 Pratas ou 3 Ouros</p>
+            <p><b>Dano :</b> 1 D12</p>
+            </div>
+         </div>
+         
+         <div class="item-slot">
+            <div class="item-img arma">  <img src="/img/itens/arm/orbs.png"> </div>
+            <div class="item-txt">
+                <h3>Orbes do Infinito</h3>
+                <p><b>Categoria: </b> Palma da mão</p>
+                <p><b>Classe : </b> Mago (Nvl 11)</p>
+                <p><b>Preço :</b> 230 Pratas ou 4 Ouros</p>
+                <p><b>Dano :</b> 1 D12 + D4</p>
+            </div>
+         </div>
+         
+         <div class="item-slot">  <!--COPIAR P NOVO ITEM-->
+            <div class="item-img arma"> <img src="/img/itens/arm/darkhold.png">  </div>
+            <div class="item-txt">
+             <h3>Darkhold</h3>
+             <p><b>Categoria: </b> Livro das Trevas</p>
+             <p><b>Classe : </b> Mago (Nvl 15)</p>
+             <p><b>Preço :</b> 290 Pratas ou 5 Ouros</p>
+             <p><b>Dano :</b> 2 D8</p>
+            </div>
+         </div>
+     
+         <div class="item-slot">
+             <div class="item-img arma">  <img src="/img/itens/arm/flecha.png"> </div>
+             <div class="item-txt">
+                 <h3>Flecha Comum</h3>
+             <p><b>Categoria: </b> Projétil</p>
+             <p><b>Classe : </b> Ranger (Nvl 1)</p>
+             <p><b>Preço :</b> 2 Moedas de Prata (Unid)</p>
+             <p><b>Dano :</b> 1 D4</p>
+             </div>
+          </div>
+     
+          
+         <div class="item-slot">
+             <div class="item-img arma">  <img src="/img/itens/arm/flecha-aco.png"> </div>
+             <div class="item-txt">
+                <h3>Flecha de Aço</h3>
+                <p><b>Categoria: </b> Projétil</p>
+                <p><b>Classe : </b> Ranger (Nvl 2)</p>
+                <p><b>Preço :</b> 6 Moedas de Prata (Unid)</p>
+                <p><b>Dano :</b> 1 D6</p>
+             </div>
+          </div>
+     
+          
+         <div class="item-slot">
+             <div class="item-img arma">  <img src="/img/itens/arm/flecha-acido.png"> </div>
+             <div class="item-txt">
+                <h3>Flecha de Ácido</h3>
+                <p><b>Categoria: </b> Projétil</p>
+                <p><b>Classe : </b> Ranger (Nvl 3)</p>
+                <p><b>Preço :</b> 15 Moedas de Prata (Unid)</p>
+                <p><b>Dano :</b> 1 D8</p>
+             </div>
+          </div>
+     
+          
+         <div class="item-slot">
+             <div class="item-img arma">  <img src="/img/itens/arm/flecha-explosiva.png"> </div>
+             <div class="item-txt">
+                <h3>Flecha Explosiva</h3>
+                <p><b>Categoria: </b> Projétil</p>
+                <p><b>Classe : </b> Ranger (Nvl 5)</p>
+                <p><b>Preço :</b> 25 Moedas de Prata (Unid)</p>
+                <p><b>Dano :</b> 1 D10</p>
+             </div>
+          </div>
+ 
+          <div class="item-slot">
+             <div class="item-img arma">  <img src="/img/itens/arm/flecha-elfica.png"> </div>
+             <div class="item-txt">
+                <h3>Flecha Élfica</h3>
+                <p><b>Categoria: </b> Projétil</p>
+                <p><b>Classe : </b> Ranger (Nvl 8)</p>
+                <p><b>Preço :</b> 35 Moedas de Prata (Unid)</p>
+                <p><b>Dano :</b> 1 D12</p>
+             </div>
+          </div>
+          
+          <div class="item-slot">
+             <div class="item-img arma">  <img src="/img/itens/arm/flecha-luz.png"> </div>
+             <div class="item-txt">
+                <h3>Flecha de Luz</h3>
+                <p><b>Categoria: </b> Projétil Mágico</p>
+                <p><b>Classe : </b> Ranger (Nvl 11)</p>
+                <p><b>Preço :</b> 50 Moedas de Prata (Unid)</p>
+                <p><b>Dano :</b> 2 D8</p>
+             </div>
+          </div>
+    </div> <!--ITEM AREA RIGHT (fim)-->
+
+    </div>
+
+</div> <!--container-itens-->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+  </html>
